@@ -1,0 +1,19 @@
+.odd {
+  background-color: antiquewhite;
+  min-height: 75%;
+}
+
+.even {
+  background-color: deepskyblue;
+  min-height: 75%;
+}
+
+.backgroundPic {
+  background-image: url("../images/hospital-ministry-top.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
