@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .odd {
   background-color: rgb(253, 243, 229);
   min-height: 75%;
@@ -11,9 +15,14 @@
 .backgroundPic {
   background-image: url("../images/hospital-ministry-top.jpg");
   background-color: #cccccc;
-  height: 100vh;
+  height: 75vmin;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.slides {
+  height: 75vmin;
+  width: auto;
 }

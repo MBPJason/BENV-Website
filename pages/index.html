@@ -4,65 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BENV Ministry Clinic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
-  <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">BENV Health</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
+  <body data-bs-spy="scroll" data-bs-target="#benv-nav" data-bs-offset="0" tabindex="0">
+    <!-- NAV BAR STARTS -->
+    <nav id="benv-nav" class="navbar-light bg-light nav-fill justify-content-center sticky-top">
+      <ul  class="nav nav-tabs navbar">
+      <li class="nav-item">
+        <a class="nav-link" href="#landing">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#staff">Staff</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-us">Contact Us</a>
+      </li>
+    </ul>
     </nav>
+    
     <!-- NAV BAR ENDS -->
 
     <!-- CONTAINER FOR THE ENTIRE PAGE AFTER THE NAV BAR -->
-    <main class="">
+    <main >
       <!-- LANDING PAGE SECTION  -->
       <!-- TODO: Add real styling to this section -->
-      <section id="landing" class="position-relative backgroundPic">
-        <h1 class="landing_header">Welcome to BENV Ministry Clinic</h1>
-        <h3>Where faith and healthcare intersect</h3>
-        <div class="gap-2 position-absolute top-50 start-50 translate-middle">
-          <button class="btn btn-primary" type="button">Button</button>
-          <button class="btn btn-primary" type="button">Button</button>
+      <section id="landing" class="backgroundPic">
+        <h1 class="landing_header text-center">Welcome to BENV Ministry Clinic</h1>
+        <h3 class="text-center">Where faith and healthcare intersect</h3>
+        <div class="gap-4 position-absolute top-50 start-50 translate-middle mt-5">
+          <button class="btn-lg btn-primary mt-5" type="button">Learn More</button>
+          <button class="btn-lg btn-primary mt-5" type="button">Contact Us</button>
         </div>
       </section>
       <!-- LANDING PAGE SECTION ENDS-->
 
       <!-- ABOUT PAGE SECTION STARTS -->
       <section id="about-us" class="odd">
-        <!-- TODO: Need to describe the clinic -->
+        <!-- CLINIC MISSION STATEMENT STARTS -->
         <div class="container">
+          <br>
+          <br>
+          <br>
           <h2 class="text-center mb-3">Spread to through faith and caring</h2>
           <p>
             We are clinic and in our strong belief are out to use our skills to
@@ -76,13 +70,18 @@
             door with the utmost importance and care like you are treasured
             member of our family.
           </p>
+          <br>
+          <br>
         </div>
+        <!-- CLINIC MISSION STATEMENT ENDS -->
 
-        <!-- TODO: Need to give testimony -->
+        <!-- TESTIMONIALS SECTION STARTS -->
         <section id="testimony" class="row">
+          <br>
+          <br>
           <h3 class="text-center my-3">Testimonials</h3>
-          <div class="col-4">
-            <div class="card text-center">
+          <div class="col-md-4">
+            <div class="card text-center shadow">
               <div class="card-body">
                 <h4>"</h4>
                 <img src="" alt="Random Person 1" class="rounded-circle" />
@@ -98,8 +97,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card text-center">
+          <div class="col-md-4">
+            <div class="card text-center shadow">
               <div class="card-body">
                 <h4>"</h4>
                 <img src="" alt="Random Person 2" class="rounded-circle" />
@@ -115,8 +114,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card text-center">
+          <div class="col-md-4">
+            <div class="card text-center shadow">
               <div class="card-body">
                 <h4>"</h4>
                 <img src="" alt="Random Person 3" class="rounded-circle" />
@@ -138,13 +137,14 @@
             <hr />
           </div>
         </section>
+        <!-- TESTIMONIALS SECTION ENDS -->
 
-        <!-- TODO: Need to show staff -->
-
-        <secction id="staff">
+        <!-- STAFF SECTION STARTS-->
+        <section id="staff">
+          <br>
           <div class="container">
             <div class="row">
-              <h3 class="text-center my-5">Meet the Crew</h3>
+              <h3 class="text-center my-5">Meet the Staff</h3>
               <div class="col-6">
                 <div class="card my-4">
                   <div id="team-member1" class="card-body text">
@@ -207,34 +207,98 @@
               </div>
             </div>
           </div>
-        </secction>
+        </section>
+        <!-- STAFF SECTION ENDS -->
       </section>
+      <!-- ABOUT SECTION ENDS -->
+
       <!-- Services Carousel -->
-      <section id="services" class="even">
-        <!-- <div class="card">
-          <div class="card-header">
-            Home
+      <div
+        id="services"
+        class="carousel slide slides"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#services"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#services"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#services"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../assets/images/happy-patient-and-doctor.jpg"
+              class="d-block slides"
+              alt="..."
+            />
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="carousel-item">
+            <img
+              src="../assets/images/Happy-patient.jpg"
+              class="d-block slides"
+              alt="..."
+            />
           </div>
-        </div> -->
-        content
-      </section>
+          <div class="carousel-item">
+            <img
+              src="../assets/images/patient-satisfaction-nurse-with-patient.jpg"
+              class="d-block slides"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#services"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#services"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <!-- Contact Us -->
-      <section id="Contact Us" class="row odd">
-        <div class="card">
-          <div class="card-header">Home</div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+      <section id="contact-us" class="row odd">
+        <div class="container text-center">
+          <h3 class="text-center">Reach Out to Us</h3>
+          <p>Contact Us Here:</p>
+          <p>Email: BENV_Ministry_Clinc@gmail.com</p>
+          <p>Phone Number: 1-800-234-5555</p>
+          <address>5000 Fake Place Av, Brandon,FL</address>
+        </div>
+        <br />
+        <div class="col-12 text-center">
+          <h5 class="text-center">Or</h5>
+        </div>
+        <br />
+        <div class="container text-center">
+          <h3>We Contact You</h3>
+          <button class="btn btn-primary">Provide Your Info</button>
         </div>
       </section>
       <!-- Footer -->
