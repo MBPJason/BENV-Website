@@ -2,6 +2,10 @@ body {
   position: relative;
 }
 
+h1, h2, h3 {
+  font-family: 'Dancing Script', cursive;
+}
+
 .odd {
   background-color: rgb(253, 243, 229);
   min-height: 75%;
@@ -13,7 +17,7 @@ body {
 }
 
 .backgroundPic {
-  background-image: url("../images/hospital-ministry-top.jpg");
+  background-image: url("../images/hospital-ministry-top-green-mix.jpg");
   background-color: #cccccc;
   height: 75vmin;
   background-position: center;
